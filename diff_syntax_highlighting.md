@@ -19,6 +19,6 @@ function greetUser(userName){
 function greetUser(userName){
   var name = "Vikram";
 
-  return "Hello, " + userName;
+ return "Hello, " + userName;
 }
 ```
