@@ -15,3 +15,10 @@ function greetUser(userName){
 +    return "Hello, " + userName;
 }
 ```
+```js
+function greetUser(userName){
+  var name = "Vikram";
+
+  return "Hello, " + userName;
+}
+```
