@@ -5,5 +5,11 @@ function greetPerson(name) {
 - return "Hello, Thanks for installing Docs to Markdown Pro";
 + return "Hello, " + name + "!Thanks for installing Docs to Markdown Pro";
 }
+```
 
+```diff js
+function greetUser(userName){
+-    return "Hello";
++    return "Hello, " + userName;
+}
 ```
