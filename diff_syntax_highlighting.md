@@ -2,6 +2,7 @@
 
 ```diff
 function greetPerson(name) {
+ var name = "Vikram";
 - return "Hello, Thanks for installing Docs to Markdown Pro";
 + return "Hello, " + name + "!Thanks for installing Docs to Markdown Pro";
 }
@@ -9,6 +10,7 @@ function greetPerson(name) {
 
 ```diff js
 function greetUser(userName){
+      var name = "Vikram";
 -    return "Hello";
 +    return "Hello, " + userName;
 }
